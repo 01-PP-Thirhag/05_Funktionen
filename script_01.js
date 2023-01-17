@@ -64,8 +64,8 @@ function ausgabeNamenParams(firstName, familyName) {
 function ausgabeNamenParams2(firstName, familyName) {
 
     // 1. Funktionalität: string composing
-    const gap = " ";
-    let outputStr = "Hallo" + gap + firstName + gap + familyName +"!";
+    const GAP = " ";
+    let outputStr = "Hallo" + GAP + firstName + GAP + familyName +"!";
 
     // 2. Funktionalität: string output
     console.log(outputStr);
@@ -76,16 +76,20 @@ function ausgabeNamenParams2(firstName, familyName) {
 
 
 // 1. Funktionalität: string composing
+output(getString("Max", "Mütze"));
 
-// 2. Funktionalität: string output
-output("Hi");
-output(2);
-output(true);
-
-function output(outputData) {
-    console.log(outputData); 
+function getString(firstName,familyName){
+    const GAP = " ";
+    let outputStr = "Hallo" + GAP + firstName + GAP + familyName + "!";
 }
 
-function output(outputData) {
-    console.log(outputData); 
+// 2. Funktionalität: string output
+// output("Hi");
+// output(2);
+// output(true);
+
+// function output(outputData) {
+//     console.log(outputData); 
+
+function output(outputData) { 
 }
