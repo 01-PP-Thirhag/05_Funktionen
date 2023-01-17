@@ -22,11 +22,15 @@ function ausgabeNamen() {
 //    console.log("Hallo" + " " + firstName + "!")
 }
 
+/***** Funktionen 02a *****/
+// 2a. Parametrisierung + Datenübergabe von INNEN
 
-/******Funktion 02b*********/
-// 2b. Parametriesierung + Datenübergabe von AUSSEN
+ausgabeNamen();
+// console.log(firstName); // Fehler: Scope!
 
-ausgabeNamenParam();
+function ausgabeNamen() {
+    let firstName = "Heinrich"; // what happens in Vegas, ...
+    console.log("Hallo " + firstName + "!");
+}
 
-function ausgabeNamenParam(firstName) {
-    console.log("Hallo" + " " + firstName + "!")}
+
