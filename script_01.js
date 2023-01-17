@@ -12,7 +12,7 @@ function test(){}
 
 
 /****** Funktionen 02a ************/
-// 2a. Parametrisierung + Datenübergabe vin INNEN
+// 2a. Parametrisierung + Datenübergabe von INNEN
 
 ausgabeNamen();
 // console.log(firstName); // Fehler Scope!
