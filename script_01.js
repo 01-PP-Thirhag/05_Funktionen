@@ -70,7 +70,3 @@ function ausgabeNamenParams2(firstName, familyName) {
     // 2. Funktionalität: string output
     console.log(outputStr);
 }
-
-    // 2. Funktionalität: string output
-
-    console.log(outputStr);
