@@ -64,11 +64,11 @@
 function ausgabeNamenParams2(firstName, familyName) {
 
     // 1. Funktionalität: string composing
-    // const GAP = " ";
-    // let outputStr = "Hallo" + GAP + firstName + GAP + familyName +"!";
+    const GAP = " ";
+    let outputStr = "Hallo" + GAP + firstName + GAP + familyName +"!";
 
     // 2. Funktionalität: string output
-    // console.log(outputStr);
+    console.log(outputStr);
 }
 
 /***** Funktionen 03b *****/
@@ -82,15 +82,12 @@ function getString(firstName,familyName)
 {
     const GAP = " ";
     let outputStr = "Hallo" + GAP + firstName + GAP + familyName + "!";
+    return outputStr;
+    console.log("Funktion beendet");
 }
 
 // 2. Funktionalität: string output
 // output("Hi");
-// output(2);
-// output(true);
-
-// function output(outputData) {
-//     console.log(outputData); 
-
-function output(outputData) { 
+function output(outputData) {
+    console.log(outputData)
 }
