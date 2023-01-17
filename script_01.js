@@ -14,10 +14,19 @@ function test(){}
 /****** Funktionen 02a ************/
 // 2a. Parametrisierung + Datenübergabe von INNEN
 
-ausgabeNamen();
+// ausgabeNamen();
 // console.log(firstName); // Fehler Scope!
 
 function ausgabeNamen() {
-   let firstName = "Martin";
-   console.log("Hallo" + firstName + "!")
+//    let firstName = "Martin";
+//    console.log("Hallo" + " " + firstName + "!")
 }
+
+
+/******Funktion 02b*********/
+// 2b. Parametriesierung + Datenübergabe von AUSSEN
+
+ausgabeNamenParam();
+
+function ausgabeNamenParam(firstName) {
+    console.log("Hallo" + " " + firstName + "!")}
