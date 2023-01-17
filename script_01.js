@@ -5,11 +5,9 @@
 // Funktionsaufruf (call)
 // test();
 
-
 // Funktionsrumpf (body)| callee
 // Funktionsdeklaration
 function test(){}
-
 
 /****** Funktionen 02a ************/
 // 2a. Parametrisierung + Datenübergabe von INNEN
@@ -53,4 +51,7 @@ ausgabeNamenParams(prompt("Vorname?"),prompt("Nachname?"));
 function ausgabeNamenParams(firstName, familyName) {
     console.log("Hallo " + firstName + " " + familyName +"!");
 }
-
+/***** Funktionen 03a *****/
+// 03a. Vorbereitung
+// Postulat: one function = one job (uncle Bob)
+// SRP single responsibility principle
