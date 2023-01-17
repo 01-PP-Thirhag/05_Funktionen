@@ -59,7 +59,7 @@ function ausgabeNamenParams(firstName, familyName) {
 // Postulat: one function = one job (uncle Bob)
 // SRP single responsibility principle
 
-ausgabeNamenParams2("Max","Mütze");
+// ausgabeNamenParams2("Max","Mütze");
 
 function ausgabeNamenParams2(firstName, familyName) {
 
@@ -69,4 +69,23 @@ function ausgabeNamenParams2(firstName, familyName) {
 
     // 2. Funktionalität: string output
     console.log(outputStr);
+}
+
+/***** Funktionen 03b *****/
+// Trennen der Funktionalitäten | return
+
+
+// 1. Funktionalität: string composing
+
+// 2. Funktionalität: string output
+output("Hi");
+output(2);
+output(true);
+
+function output(outputData) {
+    console.log(outputData); 
+}
+
+function output(outputData) {
+    console.log(outputData); 
 }
